@@ -189,22 +189,16 @@ body{
     .top-layer,
     .middle,
     .bottom {
-        height: 15%; /* Adjusted height for smaller screens */
+        /* height: 15%; Adjusted height for smaller screens */
         width: 40%; /* Adjusted width for smaller screens */
     }
 
     .candle {
         height: 15%; /* Adjusted height for smaller screens */
-        width: 2%; /* Adjusted width for smaller screens */
+        /* width: 2%; Adjusted width for smaller screens */
     }
 
-    .candle::before {
-        height: 2%; /* Adjusted height for smaller screens */
-        width: 2%; /* Adjusted width for smaller screens */
-        max-height: 16px;
-        max-width: 16px;
-        bottom: 6%;
-    }
+    
     .inside p {
         font-size: 8px;
     }
